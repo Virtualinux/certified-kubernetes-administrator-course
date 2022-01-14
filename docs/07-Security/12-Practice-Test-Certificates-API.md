@@ -11,7 +11,7 @@ Solutions to the practice test - certificate API
   </details>
   
 - View the answer at /var/answers/akshay-csr.yaml
-  
+- Can use cat "akshay.csr | base64 -w0 >> akshay-csr.yaml" to easily get the csr contents in the file without line ending chars, then move to the right field
   <details>
   ```
   $ kubectl create -f /var/answers/akshay-csr.yaml
